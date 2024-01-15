@@ -1,0 +1,63 @@
+.contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    padding: 2rem;
+    background-color: #1a1a2e;
+}
+
+.heading-primary {
+    font-size: 2.5rem;
+    color: #e94560;
+    margin-bottom: 1rem;
+}
+
+.heading-secondary {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-field {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.input-field::placeholder {
+    color: #aaa;
+}
+
+.input-textarea {
+    height: 120px;
+    resize: none;
+}
+
+.submit-button {
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #e94560;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #da344d;
+}
+
+/* You might need to adjust the styling based on the actual layout of your application */

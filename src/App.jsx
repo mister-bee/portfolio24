@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import ChatBot from './ChatBot';
 import './App.css';
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
       <h1>adam boettcher</h1>
       <h2>gpts</h2>
       <h2>apps</h2>
+      <h2>misc</h2>
+      <ChatBot />
       <br />
       <br />
       <br />
